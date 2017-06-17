@@ -1,0 +1,21 @@
+.input, .output {
+  width: 50%;
+}
+
+.input {
+  float: left;
+}
+
+.output {
+  float: right;
+}
+
+textarea, label{
+  display: block;
+}
+
+textarea {
+  width: 95%;
+  height: 20em;
+  resize: vertical;
+}
