@@ -1,0 +1,13 @@
+1. Las malas prácticas de programación que en su criterio son evidenciadas en el código:
+    -> El nombre de las variables deberían siempre estar en un solo idioma, ya sea completamente en ingles o completamente en español. En el código existen variables tanto en ingles como en español.
+    -> Código comentado sin ningún tipo de explicación clara, o código comentado que no está siendo usado o no se da una explicación por la cual este esté comentado.
+    -> Existen campos estáticos (cadenas de texto) que a lo largo de un proyecto necesiten ser cambiados, y estos campos al ser estáticos van a presentar un mayor trabajo y más si estos campos se presentan mas de una vez en un código. Como por ejemplos los status o mensajes de respuesta.
+    -> Hacer uso tanto de comillas simples como comillas dobles, es una buena práctica estandarizar que comillas se van a usar para las cadenas.
+    -> Nombres de las variables no han sido estandarizados, se mezcla el uso del guión bajo con 'Camelcase'.
+2. Cómo su refactorización supera las malas prácticas de programación:
+    -> Renombrar las variables para que el código esté en un solo idioma, en este caso se eligió ingles.
+    -> Eliminar el código comentado y los comentarios que no ofrecieran una información importante.
+    -> Definir unas variables, o si se desea constantes, al inicio del código, de tal manera que si existe una necesidad de cambio, este cambio solo es necesario hacerlo dentro de las variables, o constantes, iniciales.
+    -> Reemplazar todas las comillas dobles por comillas simples. En caso de que sea necesario hacer uso de comillas dentro de una cadena, se hará uso de las comillas dobles dentro de la cadena que iría con comillas simples.
+    -> Estandarizar con un solo método, para este caso hacer uso del guión bajo
+Nota: Tanto en la línea 36 como 38, el argumento después de PUSH_MESSAGE debería ser modificado por una constante, al no conocer bien el sistema, es complicado llegar a dar con el nombre de esta variable.
