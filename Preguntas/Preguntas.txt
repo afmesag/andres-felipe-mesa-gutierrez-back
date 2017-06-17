@@ -1,0 +1,12 @@
+1. ¿En qué consiste el principio de responsabilidad única? ¿Cuál es su propósito?: Consiste en que una una clase (o módulo) debe encargarse de solo una funcionalidad dentro de un software. Gracias a este principio se pueden separar las funcionalidades en clases a un nivel granular mucho más alto y si existe la necesidad de hacer un cambio de alguna de las clases, este cambio no afecte demasiado a otras clases.
+
+2. ¿Qué características tiene según tu opinión “buen” código o código limpio?
+    -> Seleccionar un idioma para los comentarios, nombre de las funciones, nombre de las variables y que depende de los conocimientos que conozca el equipo de desarrollo.
+    -> Estandarizar nombre de:
+        -> Funciones.
+        -> Variables.
+    -> Comentarios para las funciones:
+        -> Argumentos de entrada.
+        -> Respuesta de la función.
+    -> Organización de los archivos según su función. Ejemplo, vistas, archivos JavaScript, archivos de diseño.
+    -> Documentación adicional, si se hizo uso de alguna herramienta externa.
